@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: melsalazar/mi-app:12252862909f7552c1dd5748d8faedcce8386b3f
+        image: melsalazar/mi-app:91697edf83260bc7d5b73eb8efe9dfc4ca051e22
         ports:
         - containerPort: 80
