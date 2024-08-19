@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: melsalazar/mi-app:1.0.1
+        image: melsalazar/mi-app:${{ github.sha }}
         ports:
         - containerPort: 80
