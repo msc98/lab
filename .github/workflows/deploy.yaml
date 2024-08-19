@@ -35,9 +35,3 @@ jobs:
           git commit -am "Updated image to ${{ github.sha }}"
           git push origin main
       
-      - name: Push changes to GitHub
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: |
-          git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/msc98/Lab.git
-          git push origin main
